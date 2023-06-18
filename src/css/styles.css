@@ -1,0 +1,35 @@
+img {
+  max-width: 35%;
+  height: auto;
+}
+.cat-breed {
+  font-size: 25px;
+}
+
+.cat-container {
+  width: 600px;
+}
+.cat-description {
+  font-size: 26px;
+}
+
+.cat-temperament {
+  font-size: 26px;
+}
+.cat-info {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.loader {
+  display: none;
+}
+
+.error {
+  display: none;
+}
+
+.is-hidden {
+  display: none;
+}
