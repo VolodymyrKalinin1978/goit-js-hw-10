@@ -46,6 +46,7 @@ function showCatInfo(cat) {
 }
 
 function handleBreedChange(event) {
+  event.preventDefault();
   const breedId = event.target.value;
   console.log(breedId);
   showLoader();
